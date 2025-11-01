@@ -1,0 +1,80 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+log.*
+logs/
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage / Test
+coverage/
+.nyc_output/
+jest-html-reporters-*
+
+# React specific (frontend)
+**/frontend/node_modules/
+**/frontend/build/
+**/frontend/.env
+
+# Express / Backend specific
+**/backend/node_modules/
+**/backend/.env
+**/backend/logs/
+**/backend/uploads/
+**/backend/temp/
+
+# Uploads / Cache folders (optional)
+uploads/
+cache/
+tmp/
+
+# Local database dump files
+dump.rdb
+*.sqlite
+*.db
+*.sql
+
+# Others
+*.orig
+*.rej
